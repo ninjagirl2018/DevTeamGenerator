@@ -1,0 +1,29 @@
+{
+  "name": "unit10hw",
+  "version": "1.0.0",
+  "description": "Week 10 homework - CLI Application to summarize standard Development Team",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjagirl2018/DevTeamGenerator.git"
+  },
+  "author": "Ada Wan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninjagirl2018/DevTeamGenerator/issues"
+  },
+  "homepage": "https://github.com/ninjagirl2018/DevTeamGenerator#readme",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
